@@ -12,20 +12,27 @@
       rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" />
-    <title>Today I Learned More!!!</title>
+    <title>Digital Library</title>
   </head>
   <body>
     <div class="container">
+      <!--BLOCK ELEMENT-->
       <header class="header">
         <div class="logo">
+          <!--BLOCK ELEMENT-->
+          <!--IMG INLINE ELEMENT-->
+          <!--We used the div to put the logo into a box-->
           <img
             src="logo.png"
             height="68"
             width="68"
             alt="Today I Learned Logo"
           />
-          <h1>Today I Learned</h1>
+          <h1>Digital Library</h1>
+          <!--BLOCK ELEMENT-->
+          <!--Everything that is set under the header has been entered inside the container div-- We have two elements(logo and h1)-->
         </div>
+        <!--BLOCK ELEMENT-->
 
         <button class="btn btn-large">Share a fact</button>
       </header>
@@ -33,6 +40,7 @@
       <form class="fact-form">
         <input type="text" placeholder="Share a fact with the world..." />
         <span>200</span>
+        <!--INLINE ELEMENT-->
         <input type="text" placeholder="Trustworthy source..." />
         <select>
           <option value="">Choose category:</option>
@@ -46,6 +54,7 @@
       <main class="main">
         <aside>
           <ul>
+            <!--BLOCK ELEMENT-->
             <li class="category">
               <button class="btn btn-all-categories">All</button>
             </li>
@@ -66,12 +75,15 @@
               </button>
             </li>
           </ul>
+          <!--BLOCK ELEMENT-->
         </aside>
 
         <section>
           <ul>
+            <!--BLOCK ELEMENT-->
             <li class="fact">
               <p>
+                <!--BLOCK ELEMENT-->
                 React is being developed by Meta (formerly facebook)
                 <a
                   class="source"
@@ -80,18 +92,22 @@
                   >(Source)</a
                 >
               </p>
+              <!--BLOCK ELEMENT-->
               <span class="tag" style="background-color: #3b82f6"
                 >technology</span
               >
               <div class="vote-buttons">
+                <!--BLOCK ELEMENT-->
                 <button>👍 24</button>
                 <button>🤯 9</button>
                 <button>⛔️ 4</button>
               </div>
+              <!--BLOCK ELEMENT-->
             </li>
 
             <li class="fact">
               <p>
+                <!--BLOCK ELEMENT-->
                 Millennial dads spend 3 times as much time with their kids than
                 their fathers spent with them. In 1982, 43% of fathers had never
                 changed a diaper. Today, that number is down to 3%
@@ -103,8 +119,14 @@
                   >(Source)</a
                 >
               </p>
-              <span class="tag" style="background-color: #eab308">society</span>
+              <!--BLOCK ELEMENT-->
+              <span class="tag" style="background-color: #eab308">society</span
+              ><!--INLINE ELEMENT-->
+              <!--span is used only for some small generic text-->
+              <!--This is also inline element-->
+              <!--The tag is a class selector--We can target elements with the same class  -->
               <div class="vote-buttons">
+                <!--BLOCK ELEMENT-->
                 <button>👍 11</button>
                 <button>🤯 2</button>
                 <button>⛔️ 0</button>
