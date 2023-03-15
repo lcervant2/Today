@@ -1,4 +1,4 @@
-# _{Application Name}_
+# Digital Library
 
 #### _{Brief description of application}_
 
